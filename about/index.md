@@ -1,14 +1,14 @@
 ---
 layout: full-width
-title: About
+title: giới thiệu
 ---
 
-The *Tufte-Jekyll* theme is a natural extension of the work done by [Edward Tufte](https://github.com/edwardtufte/tufte-css) and his collaborators on Github who created a CSS file that allows web writers to use the same simple and elegant style employed in his published materials.
+Dương Ngọc Thái [vnhacker](http://vnhacker.blogspot.com), là kỹ sư An toàn thông tin. Trương Nguyễn Hữu Huân [wasabi](http://tnhh.net), là một kỹ sư phần mềm nhúng. Chúng tôi đều sinh ra lớn lên ở Việt Nam, hiện tại đang cư trú tại California và làm việc tại Google và Tesla.
 
-To incorporate these styles into a Jekyll theme, I have made some very slight modifications that attempt to maintain the feel of the CSS styles in his Github repo.
+Chúng tôi muốn tạo ra một nơi để gặp gỡ, bình luận những thông tin về khoa học, công nghệ, kỹ thuật mà bạn có thể nghe khi làm việc nhà, lái xe hay ngồi uống cafe buổi sáng.
 
-Note that this is a full-width layout. This was accomplished by including ```layout: full-width``` in the YAML front matter for this page. Keep in mind that all the Tufte-Jekyll sidenote and marginnote goodness will not work on full-width layouts! 
+Nếu bạn hay ai đó đang làm và có những câu chuyện muốn chia sẻ, chúng tôi rất muốn lắng nghe. Hãy đừng ngại email cho chúng tôi tại địa chỉ hello amóc 404podcast.org. Chúng tôi cũng rất muốn lắng nghe những ý kiến đóng góp của bạn cho podcast, hay những lỗi kỹ thuật mà chúng tôi gặp phải. Xin bạn liên hệ cùng địa chỉ trên khi có ý kiến muốn đóng góp.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll).
+**Lời cảm ơn**
 
-
+Trang web này sử dụng Theme *Tufte-Jekyll* của tác giả [Edward Tufte](https://github.com/edwardtufte/tufte-css) và cộng sự. Trang web này sử dụng chương trình Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll).
