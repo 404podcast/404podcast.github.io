@@ -4,12 +4,12 @@ title:  "Xin chào!"
 categories: all
 ---
 
-```c
 
-if ((err = SSLFreeBuffer(&hashCtx)) != 0)
+{% highlight c %}
+if (((err = SSLFreeBuffer(&hashCtx)) != 0)
   printf("hello world!");
   goto fail;
-```
+{% endhighlight %}
 
 Xin chào mừng bạn đến với podcast công nghệ 4.04. 
 

@@ -80,7 +80,7 @@ body { width: 87.5%;
        margin-left: auto;
        margin-right: auto;
        padding-left: 12.5%;
-       font-family: et-bembo, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+       font-family:  $body-font;
        background-color: $bg-color;
        color: $text-color;
        max-width: 1400px;
@@ -254,7 +254,7 @@ blockquote .sidenote, blockquote .marginnote { margin-right: -79% }
 .sidenote-number { counter-increment: sidenote-counter; }
 
 .sidenote-number:after, .sidenote:before { content: counter(sidenote-counter) " ";
-                                           font-family: et-bembo-roman-old-style;
+                                           font-family:  $sans-font;
                                            color: $contrast-color; //added color
                                            position: relative;
                                            vertical-align: baseline; }
@@ -285,9 +285,7 @@ div.table-wrapper { overflow-x: auto; } //changed all overflow values to 'auto' 
 
 .marginnote code, .sidenote code { font-size: 1rem; } //more .code class removal
 
-pre, pre code, p pre code { width: 52.5%;
-           padding-left: 2.5%;
-           overflow-x: auto; }
+pre, pre code, p pre code { padding-left: 2.5%; }
 
 .fullwidth, li.listing div{ max-width: 90%; }
 
@@ -349,9 +347,8 @@ nav.group a.active:after{ content:"\000a0\0003e" ;}
 
 header > nav  a{
   font-size: 1.2rem;
-  font-family: $sans-font;
+  font-family: $body-font;
   letter-spacing: 0.15em;
-  text-transform: uppercase;
   color: $contrast-color;
   padding-top: 1.5rem;
   text-decoration: none;

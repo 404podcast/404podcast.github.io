@@ -2,9 +2,6 @@
 layout: null
 nav_exclude: true
 ---
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
 xmlns:content="http://purl.org/rss/1.0/modules/content/"
 xmlns:wfw="http://wellformedweb.org/CommentAPI/"
@@ -41,9 +38,9 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <url>{{ site.url }}{{ site.podcast_album_art }}</url>
 <link>{{ site.url }}</link>
 </image>
-<itunes:category text="{{ site.podcast_category }}">
-<itunes:category text="{{ site.podcast_subcategory_one }}" />
-<itunes:category text="{{ site.podcast_subcategory_two }}" />
+<itunes:category text="{{ site.podcast_category_one }}">
+<itunes:category text="{{ site.podcast_category_two }}" />
+<itunes:category text="{{ site.podcast_category_three }}" />
 </itunes:category>
 {% for ep in site.categories.podcast %}
   <item>
