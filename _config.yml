@@ -1,3 +1,4 @@
+url: http://www.404podcast.org
 baseurl:
 title: 404podcast
 subtitle:  Những câu chuyện từ hai hackers ở xứ Silicon Valley.
@@ -24,7 +25,7 @@ podcast_owner: Thai Duong and Huan Truong
 podcast_email: hello@404podcast.org
 podcast_category_one: Technology
 podcast_category_two: Science
-podcast_category_three: Society & Culture
+podcast_category_three: Society &amp; Culture
 podcast_explicit: "no"
 podcast_author: Thai Duong and Huan Truong
 podcast_description: Stories from two Vietnamese hackers at Silicon Valley. Những câu chuyện từ hai hackers ở xứ Silicon Valley.
