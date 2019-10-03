@@ -10,11 +10,11 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 >
 
 <channel>
-<title>Công nghệ 4.04</title>
+<title>Công nghệ 4.04 - Industry 4.04</title>
 <atom:link href="https://www.404podcast.org/feed.xml" rel="self" type="application/rss+xml" />
 <link>https://www.404podcast.org</link>
 <description>Stories from two Vietnamese hackers at Silicon Valley. Những câu chuyện từ hai hackers ở xứ Silicon Valley.</description>
-<lastBuildDate>Thu, 03 Oct 2019 12:45:18 +0700</lastBuildDate>
+<lastBuildDate>Thu, 03 Oct 2019 15:17:57 +0700</lastBuildDate>
 <language>en-US</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -56,7 +56,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
     <content:encoded>
         <![CDATA[<figure class="fullwidth"><img src="/assets/posts/wired-apple-jailbreak.jpg" /><figcaption>Credit: Alessandro De Carli / EyeEm / Getty Images / WIRED</figcaption></figure>
 
-<p>Trong kỳ ra mắt, chúng tôi bàn về một công cụ jailbreak iPhone mới được công bố. Bạn có thể nghe trực tiếp trên trang web này, <a href="https://storage.googleapis.com/404podcast/files/404podcast1_checkm8_jailbreak.mp3">tải về</a> hoặc đăng ký nghe (Subscribe) bằng iTunes, Google Play, Pocket Cast, Spotify hoặc bất cứ công cụ xem tin tức nào mà bạn hay dùng.</p>
+<p>Trong kỳ ra mắt, chúng tôi bàn về một công cụ jailbreak iPhone mới được công bố. Bạn có thể nghe trực tiếp trên trang web này, <a href="https://storage.googleapis.com/404podcast/files/404podcast1_checkm8_jailbreak.mp3">tải về</a> hoặc đăng ký nghe (Subscribe) bằng iTunes, Google Play, <a href="https://pca.st/55mgqf4b">Pocket Casts</a>, Spotify hoặc bất cứ công cụ nghe Podcast nào mà bạn hay dùng (Khi bài này được đưa lên thì chúng tôi vẫn đang chờ sự đồng ý của Google, Apple và Spotify, nên có thể bạn sẽ chưa tìm thấy. Hy vọng nay mai chúng tôi sẽ được duyệt.)</p>
 
 <p>Dưới đây là tóm tắt của podcast này.</p>
 
@@ -94,7 +94,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
     <itunes:subtitle><![CDATA[Credit: Alessandro De Carli / EyeEm / Getty Images / WIRED Trong kỳ ra mắt, chúng tôi bàn về một công cụ jailbreak iPhone mới được công bố. Bạn có thể nghe trực tiếp trên trang web này, tải về hoặc đăng ký nghe (Subscribe) bằng iTunes, Google Play, Pocket...]]></itunes:subtitle>
     <itunes:summary><![CDATA[<figure class="fullwidth"><img src="/assets/posts/wired-apple-jailbreak.jpg" /><figcaption>Credit: Alessandro De Carli / EyeEm / Getty Images / WIRED</figcaption></figure>
 
-<p>Trong kỳ ra mắt, chúng tôi bàn về một công cụ jailbreak iPhone mới được công bố. Bạn có thể nghe trực tiếp trên trang web này, <a href="https://storage.googleapis.com/404podcast/files/404podcast1_checkm8_jailbreak.mp3">tải về</a> hoặc đăng ký nghe (Subscribe) bằng iTunes, Google Play, Pocket Cast, Spotify hoặc bất cứ công cụ xem tin tức nào mà bạn hay dùng.</p>
+<p>Trong kỳ ra mắt, chúng tôi bàn về một công cụ jailbreak iPhone mới được công bố. Bạn có thể nghe trực tiếp trên trang web này, <a href="https://storage.googleapis.com/404podcast/files/404podcast1_checkm8_jailbreak.mp3">tải về</a> hoặc đăng ký nghe (Subscribe) bằng iTunes, Google Play, <a href="https://pca.st/55mgqf4b">Pocket Casts</a>, Spotify hoặc bất cứ công cụ nghe Podcast nào mà bạn hay dùng (Khi bài này được đưa lên thì chúng tôi vẫn đang chờ sự đồng ý của Google, Apple và Spotify, nên có thể bạn sẽ chưa tìm thấy. Hy vọng nay mai chúng tôi sẽ được duyệt.)</p>
 
 <p>Dưới đây là tóm tắt của podcast này.</p>
 
