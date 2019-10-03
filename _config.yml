@@ -1,3 +1,4 @@
+url: http://www.404podcast.org
 baseurl:
 title: 404podcast
 subtitle:  Những câu chuyện từ hai hackers ở xứ Silicon Valley.
@@ -9,7 +10,7 @@ markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /episodes/:short_year/:title
 timezone: Asia/Saigon
-excerpt_separator: <!--more-->  # you can specify your own separator, of course.
+excerpt_separator: <!--more-->
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
 post:
   template: _post.txt
@@ -22,10 +23,9 @@ podcast_album_art: /assets/img/404.png
 podcast_title: Công nghệ 4.04 - Industry 4.04
 podcast_owner: Thai Duong and Huan Truong
 podcast_email: hello@404podcast.org
-podcast_category: Technology
-podcast_subcategory_one: Technology
-podcast_subcategory_two: Science - Mathematics
-podcast_subcategory_three: Society & Culture - Places & Travel
+podcast_category_one: Technology
+podcast_category_two: Science
+podcast_category_three: Society &amp; Culture
 podcast_explicit: "no"
 podcast_author: Thai Duong and Huan Truong
 podcast_description: Stories from two Vietnamese hackers at Silicon Valley. Những câu chuyện từ hai hackers ở xứ Silicon Valley.
