@@ -10,9 +10,9 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 >
 
 <channel>
-<title>Công nghệ 4.04 - Industry 4.04</title>
-<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-<link>http://localhost:4000</link>
+<title>Công nghệ 4.04</title>
+<atom:link href="https://www.404podcast.org/feed.xml" rel="self" type="application/rss+xml" />
+<link>https://www.404podcast.org</link>
 <description>Stories from two Vietnamese hackers at Silicon Valley. Những câu chuyện từ hai hackers ở xứ Silicon Valley.</description>
 <lastBuildDate>Thu, 03 Oct 2019 12:45:18 +0700</lastBuildDate>
 <language>en-US</language>
@@ -22,7 +22,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:summary>Chúng tôi mang Silicon Valley và nước Mỹ đến với Việt Nam qua những câu chuyện về khoa học, kỹ thuật, cuộc sống.</itunes:summary>
 <itunes:author>Thai Duong and Huan Truong</itunes:author>
 <itunes:explicit>no</itunes:explicit>
-<itunes:image href="http://localhost:4000/assets/img/404.png" />
+<itunes:image href="https://www.404podcast.org/assets/img/404.png" />
 <itunes:owner>
 <itunes:name>Thai Duong and Huan Truong</itunes:name>
 <itunes:email>hello@404podcast.org</itunes:email>
@@ -31,8 +31,8 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <itunes:subtitle>Những câu chuyện từ hai hackers ở xứ Silicon Valley, Hoa Kỳ.</itunes:subtitle>
 <image>
 <title>Công nghệ 4.04 - Industry 4.04</title>
-<url>http://localhost:4000/assets/img/404.png</url>
-<link>http://localhost:4000</link>
+<url>https://www.404podcast.org/assets/img/404.png</url>
+<link>https://www.404podcast.org</link>
 </image>
 <itunes:category text="Technology">
 <itunes:category text="Science" />
@@ -41,15 +41,15 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 
   <item>
     <title>Chiếu bí iPhone</title>
-    <link>http://localhost:4000/episodes/19/checkm8</link>
-    <comments>http://localhost:4000/episodes/19/checkm8#comments</comments>
+    <link>https://www.404podcast.org/episodes/19/checkm8</link>
+    <comments>https://www.404podcast.org/episodes/19/checkm8#comments</comments>
     <pubDate>Tue, 01 Oct 2019 00:00:00 +0700</pubDate>
     <dc:creator><![CDATA[Công nghệ 404]]></dc:creator>
 
     <category><![CDATA[podcast]]></category>
 
 
-    <guid isPermaLink="true">http://localhost:4000/episodes/19/checkm8</guid>
+    <guid isPermaLink="true">https://www.404podcast.org/episodes/19/checkm8</guid>
     <description>
         <![CDATA[Credit: Alessandro De Carli / EyeEm / Getty Images / WIRED Trong kỳ ra mắt, chúng tôi bàn về một công cụ jailbreak iPhone mới được công bố. Bạn có thể nghe trực tiếp trên trang web này, tải về hoặc đăng ký nghe (Subscribe) bằng iTunes, Google Play, Pocket...]]>
     </description>
@@ -127,7 +127,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <p>Tuy nhiên, nếu điện thoại của bạn rơi vào tay người khác, dẫu chỉ trong một thời gian ngắn, thì nếu muốn người ta vẫn có thể cài đặt mã độc vào điện thoại. Khi bạn nhận lại và mở khóa điện thoại thì mã độc có thể chôm mật khẩu và dữ liệu của bạn. Để tự vệ, mỗi khi nhận lại điện thoại từ ai khác, bạn hãy khởi động lại điện thoại trước khi sử dụng.</p>
 ]]></itunes:summary>
     <itunes:author>Thai Duong and Huan Truong</itunes:author>
-    <itunes:image href="http://localhost:4000/assets/img/404.png" />
+    <itunes:image href="https://www.404podcast.org/assets/img/404.png" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:duration>47:45</itunes:duration>
   </item>
