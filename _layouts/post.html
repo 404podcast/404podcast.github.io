@@ -5,7 +5,7 @@ layout: default
 <p class="subtitle">{{ page.date | date: "%B %-d, %Y" }}</p>
 
 
-{% page.podcast_link %}
+{% if page.podcast_link %}
 <audio controls width="100%">
   <source src="{{ page.podcast_link_ogg }}" type="audio/ogg">
   <source src="{{ page.podcast_link }}" type="audio/mpeg">
