@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
+>
+
+<channel>
+<title>Công nghệ 4.04 - Industry 4.04</title>
+<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+<link>http://localhost:4000</link>
+<description>Stories from two Vietnamese hackers at Silicon Valley. Những câu chuyện từ hai hackers ở xứ Silicon Valley.</description>
+<lastBuildDate>Thu, 03 Oct 2019 12:45:18 +0700</lastBuildDate>
+<language>en-US</language>
+<sy:updatePeriod>hourly</sy:updatePeriod>
+<sy:updateFrequency>1</sy:updateFrequency>
+<generator>http://jekyllrb.com</generator>
+<itunes:summary>Chúng tôi mang Silicon Valley và nước Mỹ đến với Việt Nam qua những câu chuyện về khoa học, kỹ thuật, cuộc sống.</itunes:summary>
+<itunes:author>Thai Duong and Huan Truong</itunes:author>
+<itunes:explicit>no</itunes:explicit>
+<itunes:image href="http://localhost:4000/assets/img/404.png" />
+<itunes:owner>
+<itunes:name>Thai Duong and Huan Truong</itunes:name>
+<itunes:email>hello@404podcast.org</itunes:email>
+</itunes:owner>
+<managingEditor>hello@404podcast.org (Thai Duong and Huan Truong)</managingEditor>
+<itunes:subtitle>Những câu chuyện từ hai hackers ở xứ Silicon Valley, Hoa Kỳ.</itunes:subtitle>
+<image>
+<title>Công nghệ 4.04 - Industry 4.04</title>
+<url>http://localhost:4000/assets/img/404.png</url>
+<link>http://localhost:4000</link>
+</image>
+<itunes:category text="Technology">
+<itunes:category text="Science" />
+<itunes:category text="Society &amp; Culture" />
+</itunes:category>
+
+  <item>
+    <title>Chiếu bí iPhone</title>
+    <link>http://localhost:4000/episodes/19/checkm8</link>
+    <comments>http://localhost:4000/episodes/19/checkm8#comments</comments>
+    <pubDate>Tue, 01 Oct 2019 00:00:00 +0700</pubDate>
+    <dc:creator><![CDATA[Công nghệ 404]]></dc:creator>
+
+    <category><![CDATA[podcast]]></category>
+
+
+    <guid isPermaLink="true">http://localhost:4000/episodes/19/checkm8</guid>
+    <description>
+        <![CDATA[Credit: Alessandro De Carli / EyeEm / Getty Images / WIRED Trong kỳ ra mắt, chúng tôi bàn về một công cụ jailbreak iPhone mới được công bố. Bạn có thể nghe trực tiếp trên trang web này, tải về hoặc đăng ký nghe (Subscribe) bằng iTunes, Google Play, Pocket...]]>
+    </description>
+    <content:encoded>
+        <![CDATA[<figure class="fullwidth"><img src="/assets/posts/wired-apple-jailbreak.jpg" /><figcaption>Credit: Alessandro De Carli / EyeEm / Getty Images / WIRED</figcaption></figure>
+
+<p>Trong kỳ ra mắt, chúng tôi bàn về một công cụ jailbreak iPhone mới được công bố. Bạn có thể nghe trực tiếp trên trang web này, <a href="https://storage.googleapis.com/404podcast/files/404podcast1_checkm8_jailbreak.mp3">tải về</a> hoặc đăng ký nghe (Subscribe) bằng iTunes, Google Play, Pocket Cast, Spotify hoặc bất cứ công cụ xem tin tức nào mà bạn hay dùng.</p>
+
+<p>Dưới đây là tóm tắt của podcast này.</p>
+
+<!--more-->
+
+<p>Ngày 27/9/2019 một chuyên gia với bí danh axiomx, tức Tiên Đề X, tung ra một công cụ bom tấn tên là <a href="https://github.com/axi0mX/ipwndfu">checkm8</a>, tức Chiếu Bí, cho phép jailbreak hầu hết các phiên bản iPhone có trên thị trường. Công cụ jailbreak không phải là hiếm, nhưng điểm đặc biệt của Chiếu Bí là Apple sẽ không thể nào ngăn được nó. Tại sao lại như vậy?</p>
+
+<p>Trước tiên chúng ta cần phải hiểu jailbreak là làm gì. Đây là đề tài rất thú vị vì nó liên quan đến chuyện gì diễn ra khi chúng ta bấm nút power để khởi động iPhone. Lúc đó iPhone sẽ thực hiện một quá trình gọi là Verified Boot, tức là khởi động có kiểm soát. Verified Boot đảm bảo phần mềm chạy trên chiếc điện thoại của bạn là phần mềm đã được Apple cho phép. Vậy Verified Boot hoạt động như thế nào?</p>
+
+<p>Để trả lời câu hỏi này chúng ta hãy xem qua quá trình khởi động của một chiếc máy tính bình thường. Quá trình này bao gồm nhiều giai đoạn. Khi bạn bấm nút power, đoạn chương trình đầu tiên được chạy là BIOS, viết tắt của Basic Input Output System. Đây là chương trình rất nhỏ, chỉ vài trăm KB. Ngày nay chương trình này phức tạp hơn và được gọi là UEFI nhưng ý tưởng vẫn như BIOS. Ví dụ, trên một chiếc Chromebook, chương trình UEFI/BIOS này chỉ gói gọn trên một con chip 64MBit tức là 8MB gắn liền với bo mạch chủ.</p>
+
+<figure><figcaption>Bạn có thể chạy chương trình UEFI của mình bằng cách gửi chương trình của mình cho chip trên máy Chromebook. Credit: wasabi / 404podcast</figcaption><img src="/assets/posts/chromebook-soic.jpg" /></figure>
+
+<p>BIOS có nhiệm vụ kiểm tra sơ bộ các thiết bị phần cứng rồi chuyển giao việc khởi động cho một chương trình lớn hơn ở trên ổ cứng, gọi là boot loader. Boot loader có nhiệm vụ kiểm tra, nạp lõi hệ điều hành và chuyển giao cho lõi hệ điều hành. Lõi hệ điều hành tiếp tục nạp các chương trình lớn hơn, để cuối cùng chúng ta có giao diện đồ họa thân thiện như bạn thấy. Tất cả quá trình này chỉ tốn vài chục giây.</p>
+
+<p>Một chiếc điện thoại iPhone cũng là một chiếc máy tính thu nhỏ và phần lớn các giai đoạn để khởi động điện thoại rất giống với một chiếc máy tính thông thường. Điểm khác biệt duy nhất là thay vì bạn có BIOS thì bạn có một chương trình không thay đổi được (read-only), được ghi trên một bộ phận phần cứng đặc biệt gọi là BootROM. BootROM này được Apple dùng với hai mục đích. Múc đích đầu tiên là chỗ dựa cuối cùng khi phần mềm trên điện thoại bị hư, ví dụ như khi quá trình cập nhật phần mềm gặp sự cố. Mục đích thứ hai của BootROM là giúp Apple đảm bảo iPhone chỉ chạy hệ điều hành của Apple. Tìm cách vượt qua được cơ chế này chính là jailbreak.</p>
+
+<p>Cách mà BootROM hoạt động cũng khá đơn giản. Nó sẽ nạp boot loader vào bộ nhớ, kiểm tra sự toàn vẹn và nguồn gốc của boot loader, đảm bảo boot loader là do Apple tạo ra và không bị thay đổi. Sau đó nó sẽ chuyển giao quyền thực thi cho boot loader. Bình thường thì BootROM chỉ nạp boot loader từ ổ cứng của điện thoại, nhưng BootROM còn có thể tải thông qua USB, khi người dùng đưa điện thoại vào chế độ Recovery, tức là khôi phục điện thoại. Đoạn mã của BootROM khi tương tác với USB có lỗi và công cụ jailbreak Chiếu Bí khai thác lỗ hổng này để đánh lừa BootROM, cung cấp cho nó một boot loader mạo danh. Boot loader mạo danh này có thể tiếp tục nạp một lõi hệ điều hành không phải do Apple tạo ra.</p>
+
+<p><label for="mf-redsn0w" class="margin-toggle">⊕</label><input type="checkbox" id="mf-redsn0w" class="margin-toggle" /><span class="marginnote"><img class="fullwidth" src="/assets/posts/redsn0w-pwned-boot.jpg" /><br />iPhone 4 chạy redsn0w. Credit: iphonefaq / iphonefaq.org/archives/971711</span></p>
+
+<p>Khi khai thác thành công lỗ hổng này, bạn có thể thay đổi ví dụ như hình trái táo của Apple bằng hình của bạn. Vài năm trước, tôi có nhớ một lỗ hổng tương tự, một nhà phát triển tráo hình trái táo bằng hình trái dứa lên trên chiếc iPhone 3GS của mình, đó là jailbreak gọi là redsn0w được coi là một kỳ tích lúc bấy giờ.</p>
+
+<p>Vậy thì đối với một người dùng bình thường, điều này có ảnh hưởng gì?</p>
+
+<p>Trước tiên, những dòng iPhone mới hơn như iPhone XS, XR hay 11 không bị ảnh hưởng. Nên nếu nhà có điều kiện thì bạn hãy nâng cấp ;-).</p>
+
+<p>Nếu iPhone cũ hơn thì cũng đừng quá lo lắng. Để khai thác được lỗ hổng này thì kẻ tấn công phải chôm được iPhone của bạn. Để tự bảo vệ, bạn nên cài đặt một mật khẩu cho điện thoại. Lúc này đây dữ liệu của bạn sẽ được mã hóa và chìa khoá giải mã được lưu trong một bộ phận phần cứng tên là Secure Enclave. Nếu không biết mật khẩu của bạn thì không ai có thể giải mã và đánh cắp dữ liệu mà bạn lưu trên điện thoại.</p>
+
+<p>Tuy nhiên, nếu điện thoại của bạn rơi vào tay người khác, dẫu chỉ trong một thời gian ngắn, thì nếu muốn người ta vẫn có thể cài đặt mã độc vào điện thoại. Khi bạn nhận lại và mở khóa điện thoại thì mã độc có thể chôm mật khẩu và dữ liệu của bạn. Để tự vệ, mỗi khi nhận lại điện thoại từ ai khác, bạn hãy khởi động lại điện thoại trước khi sử dụng.</p>
+]]>
+    </content:encoded>
+
+    <enclosure url="https://storage.googleapis.com/404podcast/files/404podcast1_checkm8_jailbreak.mp3" length="37602591" type="audio/mpeg" />
+    <itunes:subtitle><![CDATA[Credit: Alessandro De Carli / EyeEm / Getty Images / WIRED Trong kỳ ra mắt, chúng tôi bàn về một công cụ jailbreak iPhone mới được công bố. Bạn có thể nghe trực tiếp trên trang web này, tải về hoặc đăng ký nghe (Subscribe) bằng iTunes, Google Play, Pocket...]]></itunes:subtitle>
+    <itunes:summary><![CDATA[<figure class="fullwidth"><img src="/assets/posts/wired-apple-jailbreak.jpg" /><figcaption>Credit: Alessandro De Carli / EyeEm / Getty Images / WIRED</figcaption></figure>
+
+<p>Trong kỳ ra mắt, chúng tôi bàn về một công cụ jailbreak iPhone mới được công bố. Bạn có thể nghe trực tiếp trên trang web này, <a href="https://storage.googleapis.com/404podcast/files/404podcast1_checkm8_jailbreak.mp3">tải về</a> hoặc đăng ký nghe (Subscribe) bằng iTunes, Google Play, Pocket Cast, Spotify hoặc bất cứ công cụ xem tin tức nào mà bạn hay dùng.</p>
+
+<p>Dưới đây là tóm tắt của podcast này.</p>
+
+<!--more-->
+
+<p>Ngày 27/9/2019 một chuyên gia với bí danh axiomx, tức Tiên Đề X, tung ra một công cụ bom tấn tên là <a href="https://github.com/axi0mX/ipwndfu">checkm8</a>, tức Chiếu Bí, cho phép jailbreak hầu hết các phiên bản iPhone có trên thị trường. Công cụ jailbreak không phải là hiếm, nhưng điểm đặc biệt của Chiếu Bí là Apple sẽ không thể nào ngăn được nó. Tại sao lại như vậy?</p>
+
+<p>Trước tiên chúng ta cần phải hiểu jailbreak là làm gì. Đây là đề tài rất thú vị vì nó liên quan đến chuyện gì diễn ra khi chúng ta bấm nút power để khởi động iPhone. Lúc đó iPhone sẽ thực hiện một quá trình gọi là Verified Boot, tức là khởi động có kiểm soát. Verified Boot đảm bảo phần mềm chạy trên chiếc điện thoại của bạn là phần mềm đã được Apple cho phép. Vậy Verified Boot hoạt động như thế nào?</p>
+
+<p>Để trả lời câu hỏi này chúng ta hãy xem qua quá trình khởi động của một chiếc máy tính bình thường. Quá trình này bao gồm nhiều giai đoạn. Khi bạn bấm nút power, đoạn chương trình đầu tiên được chạy là BIOS, viết tắt của Basic Input Output System. Đây là chương trình rất nhỏ, chỉ vài trăm KB. Ngày nay chương trình này phức tạp hơn và được gọi là UEFI nhưng ý tưởng vẫn như BIOS. Ví dụ, trên một chiếc Chromebook, chương trình UEFI/BIOS này chỉ gói gọn trên một con chip 64MBit tức là 8MB gắn liền với bo mạch chủ.</p>
+
+<figure><figcaption>Bạn có thể chạy chương trình UEFI của mình bằng cách gửi chương trình của mình cho chip trên máy Chromebook. Credit: wasabi / 404podcast</figcaption><img src="/assets/posts/chromebook-soic.jpg" /></figure>
+
+<p>BIOS có nhiệm vụ kiểm tra sơ bộ các thiết bị phần cứng rồi chuyển giao việc khởi động cho một chương trình lớn hơn ở trên ổ cứng, gọi là boot loader. Boot loader có nhiệm vụ kiểm tra, nạp lõi hệ điều hành và chuyển giao cho lõi hệ điều hành. Lõi hệ điều hành tiếp tục nạp các chương trình lớn hơn, để cuối cùng chúng ta có giao diện đồ họa thân thiện như bạn thấy. Tất cả quá trình này chỉ tốn vài chục giây.</p>
+
+<p>Một chiếc điện thoại iPhone cũng là một chiếc máy tính thu nhỏ và phần lớn các giai đoạn để khởi động điện thoại rất giống với một chiếc máy tính thông thường. Điểm khác biệt duy nhất là thay vì bạn có BIOS thì bạn có một chương trình không thay đổi được (read-only), được ghi trên một bộ phận phần cứng đặc biệt gọi là BootROM. BootROM này được Apple dùng với hai mục đích. Múc đích đầu tiên là chỗ dựa cuối cùng khi phần mềm trên điện thoại bị hư, ví dụ như khi quá trình cập nhật phần mềm gặp sự cố. Mục đích thứ hai của BootROM là giúp Apple đảm bảo iPhone chỉ chạy hệ điều hành của Apple. Tìm cách vượt qua được cơ chế này chính là jailbreak.</p>
+
+<p>Cách mà BootROM hoạt động cũng khá đơn giản. Nó sẽ nạp boot loader vào bộ nhớ, kiểm tra sự toàn vẹn và nguồn gốc của boot loader, đảm bảo boot loader là do Apple tạo ra và không bị thay đổi. Sau đó nó sẽ chuyển giao quyền thực thi cho boot loader. Bình thường thì BootROM chỉ nạp boot loader từ ổ cứng của điện thoại, nhưng BootROM còn có thể tải thông qua USB, khi người dùng đưa điện thoại vào chế độ Recovery, tức là khôi phục điện thoại. Đoạn mã của BootROM khi tương tác với USB có lỗi và công cụ jailbreak Chiếu Bí khai thác lỗ hổng này để đánh lừa BootROM, cung cấp cho nó một boot loader mạo danh. Boot loader mạo danh này có thể tiếp tục nạp một lõi hệ điều hành không phải do Apple tạo ra.</p>
+
+<p><label for="mf-redsn0w" class="margin-toggle">⊕</label><input type="checkbox" id="mf-redsn0w" class="margin-toggle" /><span class="marginnote"><img class="fullwidth" src="/assets/posts/redsn0w-pwned-boot.jpg" /><br />iPhone 4 chạy redsn0w. Credit: iphonefaq / iphonefaq.org/archives/971711</span></p>
+
+<p>Khi khai thác thành công lỗ hổng này, bạn có thể thay đổi ví dụ như hình trái táo của Apple bằng hình của bạn. Vài năm trước, tôi có nhớ một lỗ hổng tương tự, một nhà phát triển tráo hình trái táo bằng hình trái dứa lên trên chiếc iPhone 3GS của mình, đó là jailbreak gọi là redsn0w được coi là một kỳ tích lúc bấy giờ.</p>
+
+<p>Vậy thì đối với một người dùng bình thường, điều này có ảnh hưởng gì?</p>
+
+<p>Trước tiên, những dòng iPhone mới hơn như iPhone XS, XR hay 11 không bị ảnh hưởng. Nên nếu nhà có điều kiện thì bạn hãy nâng cấp ;-).</p>
+
+<p>Nếu iPhone cũ hơn thì cũng đừng quá lo lắng. Để khai thác được lỗ hổng này thì kẻ tấn công phải chôm được iPhone của bạn. Để tự bảo vệ, bạn nên cài đặt một mật khẩu cho điện thoại. Lúc này đây dữ liệu của bạn sẽ được mã hóa và chìa khoá giải mã được lưu trong một bộ phận phần cứng tên là Secure Enclave. Nếu không biết mật khẩu của bạn thì không ai có thể giải mã và đánh cắp dữ liệu mà bạn lưu trên điện thoại.</p>
+
+<p>Tuy nhiên, nếu điện thoại của bạn rơi vào tay người khác, dẫu chỉ trong một thời gian ngắn, thì nếu muốn người ta vẫn có thể cài đặt mã độc vào điện thoại. Khi bạn nhận lại và mở khóa điện thoại thì mã độc có thể chôm mật khẩu và dữ liệu của bạn. Để tự vệ, mỗi khi nhận lại điện thoại từ ai khác, bạn hãy khởi động lại điện thoại trước khi sử dụng.</p>
+]]></itunes:summary>
+    <itunes:author>Thai Duong and Huan Truong</itunes:author>
+    <itunes:image href="http://localhost:4000/assets/img/404.png" />
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:duration>47:45</itunes:duration>
+  </item>
+
+</channel>
+</rss>
