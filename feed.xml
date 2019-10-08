@@ -10,11 +10,11 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 >
 
 <channel>
-<title>Công nghệ 4.04</title>
+<title>Công nghệ 4.04 | Technology 4.04</title>
 <atom:link href="https://www.404podcast.org/feed.xml" rel="self" type="application/rss+xml" />
 <link>https://www.404podcast.org</link>
 <description>Stories from two Vietnamese hackers at Silicon Valley. Những câu chuyện từ hai hackers ở xứ Silicon Valley.</description>
-<lastBuildDate>Sun, 06 Oct 2019 00:23:46 +0700</lastBuildDate>
+<lastBuildDate>Tue, 08 Oct 2019 09:17:49 +0700</lastBuildDate>
 <language>vi-VN</language>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -30,7 +30,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 <managingEditor>hello@404podcast.org (Thai Duong and Huan Truong)</managingEditor>
 <itunes:subtitle>Những câu chuyện từ hai hackers ở xứ Silicon Valley, Hoa Kỳ.</itunes:subtitle>
 <image>
-<title>Công nghệ 4.04</title>
+<title>Công nghệ 4.04 | Technology 4.04</title>
 <url>https://www.404podcast.org/assets/img/404.png</url>
 <link>https://www.404podcast.org</link>
 </image>
